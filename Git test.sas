@@ -1,3 +1,3 @@
-﻿proc sql;
-	select * from erik.parrot; 
+proc sql;
+	select t1.Tertiary_emotion from erik.parrot t1; 
 quit;
